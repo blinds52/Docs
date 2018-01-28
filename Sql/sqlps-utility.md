@@ -1,9 +1,8 @@
 # sqlps Utility
-[!INCLUDE[appliesto-ss-asdb-asdw-pdw-md](../includes/appliesto-ss-asdb-asdw-pdw-md.md)]
-  The **sqlps** utility starts a Windows PowerShell session with the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] PowerShell provider and cmdlets loaded and registered. You can enter PowerShell commands or scripts that use the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] PowerShell components to work with instances of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] and their objects.  
+  The **sqlps** utility starts a Windows PowerShell session with the  PowerShell provider and cmdlets loaded and registered. You can enter PowerShell commands or scripts that use the PowerShell components to work with instances of  and their objects.  
   
 > [!IMPORTANT]  
->  [!INCLUDE[ssNoteDepFutureAvoid](../includes/ssnotedepfutureavoid-md.md)] Use the **sqlps** PowerShell module instead. For more information about the **sqlps** module, see [Import the SQLPS Module](../relational-databases/scripting/import-the-sqlps-module.md).  
+>  Use the **sqlps** PowerShell module instead. For more information about the **sqlps** module, see [Import the SQLPS Module](../relational-databases/scripting/import-the-sqlps-module.md).  
   
 ## Syntax  
   
@@ -54,11 +53,11 @@ sqlps
  Shows the syntax summary of the **sqlps** utility options.  
   
 ## Remarks  
- The **sqlps** utility starts the PowerShell environment (PowerShell.exe) and loads the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] PowerShell module. The module, also named **sqlps**, loads and registers these [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] PowerShell snap-ins:  
+ The **sqlps** utility starts the PowerShell environment (PowerShell.exe) and loads the  PowerShell module. The module, also named **sqlps**, loads and registers these  PowerShell snap-ins:  
   
 -   Microsoft.SqlServer.Management.PSProvider.dll  
   
-     Implements the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] PowerShell provider and associated cmdlets such as **Encode-SqlName** and **Decode-SqlName**.  
+     Implements the  PowerShell provider and associated cmdlets such as **Encode-SqlName** and **Decode-SqlName**.  
   
 -   Microsoft.SqlServer.Management.PSSnapin.dll  
   
@@ -70,13 +69,13 @@ sqlps
   
 -   Run PowerShell script files.  
   
--   Run [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] cmdlets.  
+-   Run  cmdlets.  
   
--   Use the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] provider paths to navigate through the hierarchy of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] objects.  
+-   Use the  provider paths to navigate through the hierarchy of  objects.  
   
  By default, the **sqlps** utility runs with the scripting execution policy set to **Restricted**. This prevents running any PowerShell scripts. You can use the **Set-ExecutionPolicy** cmdlet to enable running signed scripts, or any scripts. Only run scripts from trusted sources, and secure all input and output files by using the appropriate NTFS permissions. For more information about enabling PowerShell scripts, see [Running Windows PowerShell Scripts](http://go.microsoft.com/fwlink/?LinkId=103166).  
   
- The version of the **sqlps** utility in [!INCLUDE[ssKatmai](../includes/sskatmai-md.md)] and [!INCLUDE[ssKilimanjaro](../includes/sskilimanjaro-md.md)] was implemented as a Windows PowerShell 1.0 mini-shell. Mini-shells have certain restrictions, such as not allowing users to load snap-ins other than those loaded by the mini-shell. These restrictions do not apply to the [!INCLUDE[ssSQL11](../includes/sssql11-md.md)] and higher versions of the utility, which have been changed to use the **sqlps** module.  
+ The version of the **sqlps** utility in  and  was implemented as a Windows PowerShell 1.0 mini-shell. Mini-shells have certain restrictions, such as not allowing users to load snap-ins other than those loaded by the mini-shell. These restrictions do not apply to the  and higher versions of the utility, which have been changed to use the **sqlps** module.  
   
 ## Examples  
  **A. Run the sqlps utility in default, interactive mode without the copyright banner**  
