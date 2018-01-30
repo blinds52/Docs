@@ -8,3 +8,4 @@
 |[Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs)|A curated list of delightful Node.js packages and resources.|
 |[awesome npm](https://github.com/sindresorhus/awesome-npm)|Awesome npm resources and tips.|
 |[Awesome Domain-Driven Design](https://github.com/heynickc/awesome-ddd)|A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources.|
+
