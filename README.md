@@ -9,3 +9,4 @@
 |[awesome npm](https://github.com/sindresorhus/awesome-npm)|Awesome npm resources and tips.|
 |[Awesome Domain-Driven Design](https://github.com/heynickc/awesome-ddd)|A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources.|
 |[Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md)|Microsoft REST API Guidelines Working Group|
+|[Angular 2+ Components & Libraries](https://github.com/mattlewis92/awesome-angular-components)|Angular 2+ Components & Libraries|
